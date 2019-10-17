@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 
@@ -33,7 +34,7 @@ ul{
 a {
    color: white;
    text-decoration: none;
-   padding: 22px 16px 0px;
+   padding: 22px 70px 0px;
    font-family: Helvetica, sans-serif;
    font-size: 14px;
    height: 56px;
@@ -48,11 +49,35 @@ nav{
 
 #hero {
     background-image: url("images/joker\ big.webp");
-    width: 100vw;
-    height: 100vh;
+    width: 1903px;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
+    
    
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    background-color: transparent;
+}
+
+h1 { 
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    background-color: transparent;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+    background-color: transparent;
 }
 
 #herotext {
@@ -60,4 +85,101 @@ nav{
     top: 200px;
     left: 200px;
     color: white;
+    background-color: transparent;
 }
+
+#exploreheader{
+    padding: 0px 0px 15px;
+    height: 150px;
+    width: 1873px;
+    background: radial-gradient(ellipse at center,transparent 50%,rgb(27, 27, 26) 100%),linear-gradient(45deg,rgb(46, 46, 24),transparent 50%),linear-gradient(-45deg,rgb(22, 22, 13),transparent 50%);
+    border-bottom: 1px solid hsla(0,0%,100%,.4);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255, 255, 255, 0.4);
+    padding: 0 15px;
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    
+    
+}
+h1 {
+    font-size: 40px;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 20px;
+    
+}
+h2 {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    margin: 0px 10px 0px 0px;
+    display: inline-block;
+}
+
+#exploresection {
+    height: 600px;
+    width: 199vh;
+    width: 1903px;
+    background: radial-gradient(ellipse at center,transparent 50%,rgb(49, 49, 47) 100%),linear-gradient(45deg,rgb(51, 51, 46),transparent 50%),linear-gradient(-45deg,rgb(0, 0, 0),transparent 50%);
+}
+
+.explorebox {
+    height: 330px;
+    width: 300px;
+    padding: 0px 11px;
+}
+
+#downton {
+    background-image: url("images/Downton\ Abbey.webp");
+    background-size: cover;
+    width: 279px;
+    height: 418px;
+    background-position: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 200px 0px 225px;
+    
+
+}
+
+#joker {
+    background-image: url("images/Joker\ cover.webp");
+    background-size: cover;
+    width: 310px;
+    height: 465px;
+    background-position: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 200px 0px 50px;
+}
+
+#abominable {
+    background-image: url("images/Abominable.jpg");
+    background-size: cover;
+    width: 279px;
+    height: 418px;
+    background-position: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 200px 0px 50px;
+}
+
+h5 {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: Helvetica, sans-serif;
+    float: right;
+    
+}
+
+h6 {
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    color: #FFFFFF;
+
+}
+
